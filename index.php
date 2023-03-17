@@ -8,11 +8,10 @@
 </head>
 <body>
     <form action="badwords.php" method="GET">
-        <input type="text" name="testo">
+        <textarea name="testo" id="" cols="30" rows="10"></textarea>
         <input type="text" name="parola">
         <button type="submit">Invia</button>
     </form>
-    
 </body>
 </html>
 
